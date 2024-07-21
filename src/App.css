@@ -1,0 +1,22 @@
+.tts-start,
+.tts-stop {
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+}
+
+.tts-start:hover,
+.tts-stop:hover {
+  background-color: hsl(217.2 32.6% 17.5%);
+  cursor: pointer;
+}
+
+.tts-start:disabled,
+.tts-stop:disabled {
+  opacity: 0.5;
+}
+
+.tts-start:disabled:hover,
+.tts-stop:disabled:hover {
+  background-color: transparent;
+  cursor: not-allowed;
+}
